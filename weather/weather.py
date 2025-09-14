@@ -10,7 +10,7 @@ st.sidebar.header("🔍 Search City")
 city = st.sidebar.text_input("Enter city name", "Delhi")
 
 # --- API Setup ---
-API_KEY = "b98cdc72279991b0658abd9522f568b7"  # 🔑 Replace with your OpenWeatherMap API key
+API_KEY = "YOUR_API_KEY"  # 🔑 Replace with your OpenWeatherMap API key
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 def get_weather(city, api_key):
